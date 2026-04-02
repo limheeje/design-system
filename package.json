@@ -1,0 +1,195 @@
+{
+  "name": "test-leem-vue3-components",
+  "private": false,
+  "version": "1.42.0",
+  "type": "module",
+  "files": [
+    "dist"
+  ],
+  "main": "./dist/index.umd.cjs",
+  "module": "./dist/index.js",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.es.js",
+      "require": "./dist/index.cjs.js"
+    },
+    "./BsButton": {
+      "types": "./dist/BsButton.d.ts",
+      "import": "./dist/BsButton.es.js",
+      "require": "./dist/BsButton.cjs.js"
+    },
+    "./BsCheckbox": {
+      "types": "./dist/BsCheckbox.d.ts",
+      "import": "./dist/BsCheckbox.es.js",
+      "require": "./dist/BsCheckbox.cjs.js"
+    },
+    "./BsCheckboxGroup": {
+      "types": "./dist/BsCheckboxGroup.d.ts",
+      "import": "./dist/BsCheckboxGroup.es.js",
+      "require": "./dist/BsCheckboxGroup.cjs.js"
+    },
+    "./BsIcon": {
+      "types": "./dist/BsIcon.d.ts",
+      "import": "./dist/BsIcon.es.js",
+      "require": "./dist/BsIcon.cjs.js"
+    },
+    "./BsInputField": {
+      "types": "./dist/BsInputField.d.ts",
+      "import": "./dist/BsInputField.es.js",
+      "require": "./dist/BsInputField.cjs.js"
+    },
+    "./BsModal": {
+      "types": "./dist/BsModal.d.ts",
+      "import": "./dist/BsModal.es.js",
+      "require": "./dist/BsModal.cjs.js"
+    },
+    "./BsRadio": {
+      "types": "./dist/BsRadio.d.ts",
+      "import": "./dist/BsRadio.es.js",
+      "require": "./dist/BsRadio.cjs.js"
+    },
+    "./BsRadioGroup": {
+      "types": "./dist/BsRadioGroup.d.ts",
+      "import": "./dist/BsRadioGroup.es.js",
+      "require": "./dist/BsRadioGroup.cjs.js"
+    },
+    "./BsSelect": {
+      "types": "./dist/BsSelect.d.ts",
+      "import": "./dist/BsSelect.es.js",
+      "require": "./dist/BsSelect.cjs.js"
+    },
+    "./BsTextarea": {
+      "types": "./dist/BsTextarea.d.ts",
+      "import": "./dist/BsTextarea.es.js",
+      "require": "./dist/BsTextarea.cjs.js"
+    },
+    "./BsToast": {
+      "types": "./dist/BsToast.d.ts",
+      "import": "./dist/BsToast.es.js",
+      "require": "./dist/BsToast.cjs.js"
+    },
+    "./BsPagination": {
+      "types": "./dist/BsPagination.d.ts",
+      "import": "./dist/BsPagination.es.js",
+      "require": "./dist/BsPagination.cjs.js"
+    },
+    "./BsAccordion": {
+      "types": "./dist/BsAccordion.d.ts",
+      "import": "./dist/BsAccordion.es.js",
+      "require": "./dist/BsAccordion.cjs.js"
+    },
+    "./BsBreadcrumb": {
+      "types": "./dist/BsBreadcrumb.d.ts",
+      "import": "./dist/BsBreadcrumb.es.js",
+      "require": "./dist/BsBreadcrumb.cjs.js"
+    },
+    "./BsButtonGroup": {
+      "types": "./dist/BsButtonGroup.d.ts",
+      "import": "./dist/BsButtonGroup.es.js",
+      "require": "./dist/BsButtonGroup.cjs.js"
+    },
+    "./BsDatepicker": {
+      "types": "./dist/BsDatepicker.d.ts",
+      "import": "./dist/BsDatepicker.es.js",
+      "require": "./dist/BsDatepicker.cjs.js"
+    },
+    "./BsForm": {
+      "types": "./dist/BsForm.d.ts",
+      "import": "./dist/BsForm.es.js",
+      "require": "./dist/BsForm.cjs.js"
+    },
+    "./BsGrid": {
+      "types": "./dist/BsGrid.d.ts",
+      "import": "./dist/BsGrid.es.js",
+      "require": "./dist/BsGrid.cjs.js"
+    },
+    "./BsInputFile": {
+      "types": "./dist/BsInputFile.d.ts",
+      "import": "./dist/BsInputFile.es.js",
+      "require": "./dist/BsInputFile.cjs.js"
+    },
+    "./BsInputPassword": {
+      "types": "./dist/BsInputPassword.d.ts",
+      "import": "./dist/BsInputPassword.es.js",
+      "require": "./dist/BsInputPassword.cjs.js"
+    },
+    "./BsLoading": {
+      "types": "./dist/BsLoading.d.ts",
+      "import": "./dist/BsLoading.es.js",
+      "require": "./dist/BsLoading.cjs.js"
+    },
+    "./BsSelectCustom": {
+      "types": "./dist/BsSelectCustom.d.ts",
+      "import": "./dist/BsSelectCustom.es.js",
+      "require": "./dist/BsSelectCustom.cjs.js"
+    },
+    "./BsTab": {
+      "types": "./dist/BsTab.d.ts",
+      "import": "./dist/BsTab.es.js",
+      "require": "./dist/BsTab.cjs.js"
+    },
+    "./BsTable": {
+      "types": "./dist/BsTable.d.ts",
+      "import": "./dist/BsTable.es.js",
+      "require": "./dist/BsTable.cjs.js"
+    },
+    "./BsTimepicker": {
+      "types": "./dist/BsTimepicker.d.ts",
+      "import": "./dist/BsTimepicker.es.js",
+      "require": "./dist/BsTimepicker.cjs.js"
+    },
+    "./BsTooltip": {
+      "types": "./dist/BsTooltip.d.ts",
+      "import": "./dist/BsTooltip.es.js",
+      "require": "./dist/BsTooltip.cjs.js"
+    }
+  },
+  "scripts": {
+    "dev": "vite --host",
+    "build": "vue-tsc -b && vite build",
+    "publish:minor": "npm run build && npm version minor && npm publish",
+    "preview": "vite preview",
+    "test": "vitest",
+    "lint": "eslint . --ext .js,.ts,.vue",
+    "lint:fix": "eslint . --ext .js,.ts,.vue --fix",
+    "format": "prettier --write ."
+  },
+  "dependencies": {
+    "@vueuse/core": "^12.5.0",
+    "swiper": "^11.2.5",
+    "vue": "^3.5.13",
+    "vue-router": "^4.5.0",
+    "dayjs": "^1.11.13",
+    "v-calendar": "^3.1.2"
+  },
+  "devDependencies": {
+    "@types/lodash": "^4.17.14",
+    "@types/node": "^22.10.2",
+    "@types/swiper": "^6.0.0",
+    "@typescript-eslint/eslint-plugin": "^8.18.2",
+    "@typescript-eslint/parser": "^8.18.2",
+    "@vitejs/plugin-vue": "^5.2.1",
+    "@vue-styled-components/core": "^1.9.0",
+    "@vue/test-utils": "^2.4.6",
+    "@vue/tsconfig": "^0.7.0",
+    "eslint": "^8.51.0",
+    "eslint-config-prettier": "^9.0.0",
+    "eslint-config-standard": "^17.0.0",
+    "eslint-plugin-import": "^2.19.1",
+    "eslint-plugin-n": "^15.0.0",
+    "eslint-plugin-prettier": "^5.0.0",
+    "eslint-plugin-promise": "^6.0.0",
+    "eslint-plugin-vue": "^9.17.0",
+    "jsdom": "^25.0.1",
+    "posthtml": "^0.16.6",
+    "posthtml-remove-attributes": "^1.0.0",
+    "prettier": "^3.4.2",
+    "sass": "^1.83.0",
+    "typescript": "~5.6.2",
+    "vite": "^6.0.5",
+    "vite-plugin-dts": "^4.5.0",
+    "vitest": "^2.1.8",
+    "vue-tsc": "^2.2.0"
+  }
+}
